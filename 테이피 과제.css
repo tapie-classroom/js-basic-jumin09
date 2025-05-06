@@ -1,0 +1,58 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: #faf8ef;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 40px auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .점수 {
+    background: #bbada0;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #보드 {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    margin-top: 20px;
+    background: #bbada0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .tile {
+    width: 100px;
+    height: 100px;
+    background: #cdc1b4;
+    font-size: 30px;
+    line-height: 100px;
+    border-radius: 5px;
+    color: #776e65;
+    font-weight: bold;
+  }
+  
+  .tile-2    { background: #eee4da; }
+  .tile-4    { background: #ede0c8; }
+  .tile-8    { background: #f2b179; color: white; }
+  .tile-16   { background: #f59563; color: white; }
+  .tile-32   { background: #f67c5f; color: white; }
+  .tile-64   { background: #f65e3b; color: white; }
+  .tile-128  { background: #edcf72; color: white; }
+  .tile-256  { background: #edcc61; color: white; }
+  .tile-512  { background: #edc850; color: white; }
+  .tile-1024 { background: #edc53f; color: white; }
+  .tile-2048 { background: #edc22e; color: white; }
